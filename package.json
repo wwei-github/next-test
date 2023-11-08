@@ -1,0 +1,29 @@
+{
+  "name": "next-test",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@notionhq/client": "^2.2.13",
+    "next": "14.0.1",
+    "notion-client": "^6.16.0",
+    "notion-utils": "^6.16.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-notion-x": "^6.16.0",
+    "swr": "^2.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.1",
+    "typescript": "^5"
+  }
+}
